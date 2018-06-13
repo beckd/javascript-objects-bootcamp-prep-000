@@ -3,6 +3,7 @@ var playlist = {
   cardiB: "I Like It",
   postMalone: "Psycho",
 }
-function removeFromPlaylist("drake", "Nice for What") {
-  return delete playlist.drake;
+function updatePlaylist(playlist, "lilBaby", "Yes Indeed") {
+  playlist["lilBaby"] = "Yes Indeed";
+  return playlist
 }
