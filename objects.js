@@ -4,6 +4,6 @@ var playlist = {
   postMalone: "Psycho",
 }
 function updatePlaylist(playlist, lilBaby, Yes Indeed) {
-  playlist[lilBaby] = "Yes Indeed";
+  playlist.lilBaby = 'Yes Indeed';
   return playlist
 }
