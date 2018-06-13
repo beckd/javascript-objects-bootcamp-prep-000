@@ -1,3 +1,3 @@
 var playlist = {
-  'Chumbawumba': 'Tubthumper'
+  'Slowdive': 'Alison'
 };
