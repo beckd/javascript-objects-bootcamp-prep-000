@@ -2,7 +2,7 @@ var playlist = {
   'Slowdive': 'Alison',
   'My Bloody Valentine': 'Sometimes'
 };
-function updatePlaylist(playlist, 'Phil Ochs', songTitle) {
+function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
   return playlist;
 }
