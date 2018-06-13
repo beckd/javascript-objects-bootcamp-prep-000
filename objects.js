@@ -3,7 +3,7 @@ var playlist = {
   cardiB: "I Like It",
   postMalone: "Psycho",
 }
-function updatePlaylist(playlist, lilBaby, Yes Indeed) {
+function updatePlaylist(playlist) {
   playlist.lilBaby = 'Yes Indeed';
   return playlist
 }
