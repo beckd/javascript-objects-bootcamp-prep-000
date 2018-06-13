@@ -4,5 +4,5 @@ var playlist = {
   postMalone: "Psycho",
 }
 function updatePlaylist(playlist, "lilBaby", "Yes Indeed") {
-  return playlist.assign({}, playlist, {[lilBaby: "Yes Indeed"]});
+  return playlist.assign({}, playlist, {[lilBaby: "Yes Indeed"]})
 }
